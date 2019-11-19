@@ -1,0 +1,21 @@
+
+/* Nesting SCSS Property */
+$color-background: #ffffff;
+nav {
+	div {
+		a {
+			background-color: $color-background;
+		}
+	}
+}
+
+/* Extend/Inheritance SCSS Property */
+
+%title-color-size {
+	color:darkgrey;
+	font-size: 18px;
+}
+
+.nav-item {
+	@extend %title-color;
+}

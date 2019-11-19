@@ -1,0 +1,270 @@
+/*Fonts*/
+@font-face {
+    font-family: "Droid serif";
+    src: url(../fonts/DroidSerif-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Merriweather-Black";
+    src: url(../fonts/Merriweather-Black.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Quicksand-Regular";
+    src: url(../fonts/Quicksand-Regular.otf) format("opentype");
+}
+
+/*Fonts END*/
+
+/*Brand Logo*/
+/*-----selector 1-----*/
+.navbar-brand > img {
+  padding-top: 5px;
+  margin-left: 0px;
+  min-width: 156px;
+  min-height: 53px;
+
+}
+.navbar-header{
+  min-width: 156px;
+  min-height: 53px;
+  max-width: 156px;
+  max-height: 53px;
+}
+/*Brand Logo END*/
+
+/*Formateo de Texto*/
+div.wrapper { /* Main container */
+  margin-right: auto;
+  margin-left:  auto;
+
+  max-width: 960px;
+
+  padding-right: 10px;
+  padding-left:  10px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+/* body, backgronud*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+.fondo{
+	/* The image used */
+        background: url('../images/chess.jpg');
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+      }
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+h1{
+  font-size: 50px;
+  font-family: 'Droid serif';
+}
+
+/*-----selector 2-----*/
+h2 h5{
+  color:#61646a;
+  font-family: 'Droid serif';
+}
+
+h3{
+  color:#61646a;
+  font-family: 'Merriweather-Black';
+}
+
+h4{
+  color:#61646a;
+  font-family: 'Droid serif';
+}
+
+p{
+  color:#61646a;
+  font-family: 'Quicksand-Regular'
+}
+
+.row > div > p{
+  color: #61646a;
+  text-align: center;
+  font-family: 'Quicksand-Regular';
+  font-size: 16px;
+}
+/*Formateo de Texto FIN*/
+
+/*languages icons*/
+.navbar-nav>li>a>img {
+  padding-bottom: 3px;
+  padding-left: 3px;
+  margin: 5px;
+  padding-right: 1px;
+  max-width: 32px;
+  max-height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  width: 32px;
+}
+
+/*languages icons END*/
+
+/*Nav Bar*/
+ul.dropdown-menu.menu-ajustado{
+right:auto;
+}
+
+nav {
+  min-height:50px;
+
+    }
+
+
+nav.large ul.nav-down{
+
+    font-size:15px;
+
+    }
+nav.small ul.nav-down{
+    margin-top:10px;
+    font-size:14px;
+    }
+
+nav.large ul.nav-up{
+        margin-top:0px;
+        font-size:10px;
+
+	float:right;
+
+        }
+nav.small ul.nav-up{
+      display:none;
+        }
+nav img{
+        width: 172px;
+        height: 46px;
+        margin-top: -8px;
+}
+
+/*-----selector 3-----*/
+div, ul, nav, img{
+      transition:  all 1s;
+      -moz-transition: all 1s; /* Firefox 4 */
+      -webkit-transition:  1s; /* Safari and Chrome */
+      -o-transition: all 1s; /* Opera */
+}
+
+/* Media Querys */
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #F9F7F5;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  ul.nav-down{
+    clear:right;
+  }
+  nav.large {
+      min-height:100px;
+      }
+}
+
+@media screen and (min-width: 900px) {
+  ul.nav-down{
+        font-size:18px!important;
+  }
+  ul.nav-up{
+        font-size:12px!important;
+  }
+  nav.large img {
+      width:100%;
+      height:auto;
+      margin-top: 2px;
+
+      }
+}
+/*Nav Bar END*/
+
+section {
+  display: block;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Table */
+table {
+  font-family:'Quicksand-Regular';
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/*-----selector 4-----*/
+#icon {
+  width: 30px;
+  height: 30px;
+}
+/* Table END */
+
+/*Footer*/
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+.pt-5, .py-5 {
+    padding-top: 3rem!important;
+}
+.page-footer{
+  background-color: #292929;
+}
+
+/*-----selector 5-----*/
+footer > div > hr {
+  border:none;
+}
+
+footer > div > div > div > h6 > a {
+  font-size: 16px;
+  color: white;
+
+}
+footer > div > div > div > h6 > a:hover {
+  font-size: 16px;
+  color: #b2b2b2;
+
+}
+
+.footer-copyright{
+  background-color: #000000;
+  border-top: 1px solid white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.footer-copyright a{
+  color: #ffffff;
+}
+/*Footer FIN*/
